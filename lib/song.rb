@@ -13,7 +13,7 @@ class Song
     @@songs
   end
 
-  def artist=(artlearst)
+  def artist=(artist)
     @artist = artist
   end
 
