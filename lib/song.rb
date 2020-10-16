@@ -9,12 +9,11 @@ class Song
   include Paramable
   @@songs = []
 
-
   def self.all
     @@songs
   end
 
-  def artist=(artist)
+  def artist=(artlearst)
     @artist = artist
   end
 
